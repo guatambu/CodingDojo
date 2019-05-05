@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE24F9D227EA1D300A4EBCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE24F9C227EA1D300A4EBCF /* AppDelegate.swift */; };
+		FAE24F9F227EA1D300A4EBCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE24F9E227EA1D300A4EBCF /* ViewController.swift */; };
+		FAE24FA2227EA1D300A4EBCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE24FA0227EA1D300A4EBCF /* Main.storyboard */; };
+		FAE24FA5227EA1D300A4EBCF /* PowerOfPairing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAE24FA3227EA1D300A4EBCF /* PowerOfPairing.xcdatamodeld */; };
+		FAE24FA7227EA1D400A4EBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE24FA6227EA1D400A4EBCF /* Assets.xcassets */; };
+		FAE24FAA227EA1D400A4EBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE24FA8227EA1D400A4EBCF /* LaunchScreen.storyboard */; };
+		FAE24FB5227EA1D500A4EBCF /* PowerOfPairingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE24FB4227EA1D500A4EBCF /* PowerOfPairingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE24FB1227EA1D500A4EBCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE24F91227EA1D300A4EBCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE24F98227EA1D300A4EBCF;
+			remoteInfo = PowerOfPairing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE24F99227EA1D300A4EBCF /* PowerOfPairing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerOfPairing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE24F9C227EA1D300A4EBCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAE24F9E227EA1D300A4EBCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAE24FA1227EA1D300A4EBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE24FA4227EA1D300A4EBCF /* PowerOfPairing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PowerOfPairing.xcdatamodel; sourceTree = "<group>"; };
+		FAE24FA6227EA1D400A4EBCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE24FA9227EA1D400A4EBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE24FAB227EA1D400A4EBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE24FB0227EA1D500A4EBCF /* PowerOfPairingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerOfPairingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE24FB4227EA1D500A4EBCF /* PowerOfPairingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfPairingTests.swift; sourceTree = "<group>"; };
+		FAE24FB6227EA1D500A4EBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE24F96227EA1D300A4EBCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE24FAD227EA1D500A4EBCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE24F90227EA1D300A4EBCF = {
+			isa = PBXGroup;
+			children = (
+				FAE24F9B227EA1D300A4EBCF /* PowerOfPairing */,
+				FAE24FB3227EA1D500A4EBCF /* PowerOfPairingTests */,
+				FAE24F9A227EA1D300A4EBCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE24F9A227EA1D300A4EBCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE24F99227EA1D300A4EBCF /* PowerOfPairing.app */,
+				FAE24FB0227EA1D500A4EBCF /* PowerOfPairingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE24F9B227EA1D300A4EBCF /* PowerOfPairing */ = {
+			isa = PBXGroup;
+			children = (
+				FAE24FC2227EA20500A4EBCF /* Models */,
+				FAE24FC1227EA1FE00A4EBCF /* Views */,
+				FAE24FC0227EA1F500A4EBCF /* Controllers */,
+				FAE24FBF227EA1E000A4EBCF /* App Resources */,
+			);
+			path = PowerOfPairing;
+			sourceTree = "<group>";
+		};
+		FAE24FB3227EA1D500A4EBCF /* PowerOfPairingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE24FB4227EA1D500A4EBCF /* PowerOfPairingTests.swift */,
+				FAE24FB6227EA1D500A4EBCF /* Info.plist */,
+			);
+			path = PowerOfPairingTests;
+			sourceTree = "<group>";
+		};
+		FAE24FBF227EA1E000A4EBCF /* App Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAE24F9C227EA1D300A4EBCF /* AppDelegate.swift */,
+				FAE24FA6227EA1D400A4EBCF /* Assets.xcassets */,
+				FAE24FA8227EA1D400A4EBCF /* LaunchScreen.storyboard */,
+				FAE24FAB227EA1D400A4EBCF /* Info.plist */,
+			);
+			path = "App Resources";
+			sourceTree = "<group>";
+		};
+		FAE24FC0227EA1F500A4EBCF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAE24F9E227EA1D300A4EBCF /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAE24FC1227EA1FE00A4EBCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAE24FA0227EA1D300A4EBCF /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAE24FC2227EA20500A4EBCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAE24FA3227EA1D300A4EBCF /* PowerOfPairing.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE24F98227EA1D300A4EBCF /* PowerOfPairing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE24FB9227EA1D500A4EBCF /* Build configuration list for PBXNativeTarget "PowerOfPairing" */;
+			buildPhases = (
+				FAE24F95227EA1D300A4EBCF /* Sources */,
+				FAE24F96227EA1D300A4EBCF /* Frameworks */,
+				FAE24F97227EA1D300A4EBCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerOfPairing;
+			productName = PowerOfPairing;
+			productReference = FAE24F99227EA1D300A4EBCF /* PowerOfPairing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE24FAF227EA1D500A4EBCF /* PowerOfPairingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE24FBC227EA1D500A4EBCF /* Build configuration list for PBXNativeTarget "PowerOfPairingTests" */;
+			buildPhases = (
+				FAE24FAC227EA1D500A4EBCF /* Sources */,
+				FAE24FAD227EA1D500A4EBCF /* Frameworks */,
+				FAE24FAE227EA1D500A4EBCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE24FB2227EA1D500A4EBCF /* PBXTargetDependency */,
+			);
+			name = PowerOfPairingTests;
+			productName = PowerOfPairingTests;
+			productReference = FAE24FB0227EA1D500A4EBCF /* PowerOfPairingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE24F91227EA1D300A4EBCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "DunDak, LLC";
+				TargetAttributes = {
+					FAE24F98227EA1D300A4EBCF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FAE24FAF227EA1D500A4EBCF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FAE24F98227EA1D300A4EBCF;
+					};
+				};
+			};
+			buildConfigurationList = FAE24F94227EA1D300A4EBCF /* Build configuration list for PBXProject "PowerOfPairing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE24F90227EA1D300A4EBCF;
+			productRefGroup = FAE24F9A227EA1D300A4EBCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE24F98227EA1D300A4EBCF /* PowerOfPairing */,
+				FAE24FAF227EA1D500A4EBCF /* PowerOfPairingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE24F97227EA1D300A4EBCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE24FAA227EA1D400A4EBCF /* LaunchScreen.storyboard in Resources */,
+				FAE24FA7227EA1D400A4EBCF /* Assets.xcassets in Resources */,
+				FAE24FA2227EA1D300A4EBCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE24FAE227EA1D500A4EBCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE24F95227EA1D300A4EBCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE24F9F227EA1D300A4EBCF /* ViewController.swift in Sources */,
+				FAE24FA5227EA1D300A4EBCF /* PowerOfPairing.xcdatamodeld in Sources */,
+				FAE24F9D227EA1D300A4EBCF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE24FAC227EA1D500A4EBCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE24FB5227EA1D500A4EBCF /* PowerOfPairingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE24FB2227EA1D500A4EBCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE24F98227EA1D300A4EBCF /* PowerOfPairing */;
+			targetProxy = FAE24FB1227EA1D500A4EBCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE24FA0227EA1D300A4EBCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE24FA1227EA1D300A4EBCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE24FA8227EA1D400A4EBCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE24FA9227EA1D400A4EBCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE24FB7227EA1D500A4EBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE24FB8227EA1D500A4EBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE24FBA227EA1D500A4EBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9FXT6FZ5X;
+				INFOPLIST_FILE = "$(SRCROOT)/PowerOfPairing/App Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dundak.PowerOfPairing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE24FBB227EA1D500A4EBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9FXT6FZ5X;
+				INFOPLIST_FILE = "$(SRCROOT)/PowerOfPairing/App Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dundak.PowerOfPairing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAE24FBD227EA1D500A4EBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9FXT6FZ5X;
+				INFOPLIST_FILE = PowerOfPairingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dundak.PowerOfPairingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerOfPairing.app/PowerOfPairing";
+			};
+			name = Debug;
+		};
+		FAE24FBE227EA1D500A4EBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9FXT6FZ5X;
+				INFOPLIST_FILE = PowerOfPairingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dundak.PowerOfPairingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerOfPairing.app/PowerOfPairing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE24F94227EA1D300A4EBCF /* Build configuration list for PBXProject "PowerOfPairing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE24FB7227EA1D500A4EBCF /* Debug */,
+				FAE24FB8227EA1D500A4EBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE24FB9227EA1D500A4EBCF /* Build configuration list for PBXNativeTarget "PowerOfPairing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE24FBA227EA1D500A4EBCF /* Debug */,
+				FAE24FBB227EA1D500A4EBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE24FBC227EA1D500A4EBCF /* Build configuration list for PBXNativeTarget "PowerOfPairingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE24FBD227EA1D500A4EBCF /* Debug */,
+				FAE24FBE227EA1D500A4EBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAE24FA3227EA1D300A4EBCF /* PowerOfPairing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAE24FA4227EA1D300A4EBCF /* PowerOfPairing.xcdatamodel */,
+			);
+			currentVersion = FAE24FA4227EA1D300A4EBCF /* PowerOfPairing.xcdatamodel */;
+			path = PowerOfPairing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAE24F91227EA1D300A4EBCF /* Project object */;
+}
